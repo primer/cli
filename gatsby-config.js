@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Doctocat Template',
-    shortName: 'Template',
-    description: 'My site description',
+    title: 'Primer Command Line',
+    shortName: 'Command Line',
+    description: 'Design guidelines for GitHub\'s command line tool',
   },
   plugins: ['@primer/gatsby-theme-doctocat'],
 }
