@@ -1,7 +1,43 @@
-- title: Page 1
-  url: /page-1
-- title: Example
-  url: /example
+- title: Principles
+  url: /principles
+- title: Foundations
+  url: /foundations
   children:
-    - title: Page 2
-      url: /example/page-2
+    - title: Language
+      url: /foundations/language
+    - title: Typography
+      url: /foundations/typography
+    - title: Spacing
+      url: /foundations/spacing
+    - title: Color
+      url: /foundations/color
+    - title: Iconography
+      url: /foundations/iconography
+    - title: Scriptability
+      url: /foundations/scriptablity
+    - title: Customizability
+      url: /foundations/customizability
+    - title: Accessibility
+      url: /foundations/accessibility
+- title: Components
+  url: /components
+  children:
+    - title: Syntax
+      url: /components/syntax
+    - title: Prompts
+      url: /components/prompts
+    - title: State
+      url: /components/state
+    - title: Spinner
+      url: /components/spinner
+    - title: Headers
+      url: /components/headers
+- title: Prototyping
+  url: /prototyping
+  children:
+    - title: Process
+      url: /prototyping/process
+    - title: Google Docs
+      url: /prototyping/google-docs
+    - title: Figma
+      url: /prototyping/figma
