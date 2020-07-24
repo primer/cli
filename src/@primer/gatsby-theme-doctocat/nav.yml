@@ -14,11 +14,9 @@
     - title: Iconography
       url: /foundations/iconography
     - title: Scriptability
-      url: /foundations/scriptablity
+      url: /foundations/scriptability
     - title: Customizability
       url: /foundations/customizability
-    - title: Accessibility
-      url: /foundations/accessibility
 - title: Components
   url: /components
   children:
@@ -32,6 +30,14 @@
       url: /components/spinner
     - title: Headers
       url: /components/headers
+    - title: Lists
+      url: /components/lists
+    - title: Detail views
+      url: /components/detail
+    - title: Empty states
+      url: /components/empty
+    - title: Help pages
+      url: /components/help
 - title: Prototyping
   url: /prototyping
   children:
