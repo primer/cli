@@ -2,6 +2,7 @@
 title: Language
 ---
 
+
 Language is the most important tool at our disposal for creating a clear, understandable product. Having clear language helps us create memorable commands that are clear in what they will do.
 
 We generally follow this structure:
@@ -38,8 +39,10 @@ We generally follow this structure:
 
 Tip: To get a better sense of what feels right, try writing out the commands in the CLI a few different ways.
 
- DO. 							 DO NOT.
+```
+DO. 							 DO NOT.
 gh pr review --approve			gh pr approve
+```
 
 Approve is a type of review, so we use a flag instead of a command here.
 
@@ -52,8 +55,11 @@ open vs create
   - pr vs pull request
   - repo vs repository
 
- DO. 							 DO NOT.
-gh pr create					gh pr open
 
- DO. 							 DO NOT.
-gh repo view					gh repository view
+```
+DO                    DO NOT
+gh pr create          gh pr open
+
+DO                    DO NOT
+gh repo view          gh repository view
+```

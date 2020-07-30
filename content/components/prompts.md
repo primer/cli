@@ -28,23 +28,27 @@ Use to enter short strings of text. Enter will accept the auto fill if available
 ## Long text
 Use to enter large bodies of text. E key will open the user’s preferred editor, and Enter will skip.
 
+```
 ? Prompt [(e) to launch vim, enter to skip]
-
+```
 
 ## Radio select
 Use to select one option
 
+```
 ? Prompt [Use arrows to move, type to filter]
 > Choice focused
   Choice
   Choice
-
+```
 
 ## Multi select
 Use to select multiple options
 
+```
 ? Prompt [Use arrows to move, space to select, type to filter]
 > [x]  Choice selected and focused
   [x]  Choice selected
   [ ]  Projects
   [ ]  Milestone
+```
