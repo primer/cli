@@ -1,6 +1,7 @@
 ---
 title: State
 ---
+import State from '../../src/images/States.png'
 
 The CLI reflects how GitHub.com displays state through color and iconography.
 
@@ -23,3 +24,5 @@ error message (current)
 ✓ Item closed
 ✓ Item merged
 ```
+
+<img src={State} alt="" />
