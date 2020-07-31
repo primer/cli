@@ -2,6 +2,12 @@
 title: Prompts
 ---
 
+import PromptYesNo from '../../src/images/Prompt-YesNo.png'
+import PromptShortText from '../../src/images/Prompt-ShortText.png'
+import PromptLongText from '../../src/images/Prompt-LongText.png'
+import PromptRadio from '../../src/images/Prompt-RadioSelect.png'
+import PromptMulti from '../../src/images/Prompt-MultiSelect.png'
+
 Generally speaking, prompts are the CLI’s version of forms.
 
 - Use prompts for entering information
@@ -12,43 +18,25 @@ Generally speaking, prompts are the CLI’s version of forms.
 ## Yes/No
 Use for yes/no questions, usually a confirmation. The default (what will happen if you enter nothing and hit enter) is in caps.
 
-
-```
-? Prompt [y/N]
-```
+<img src={PromptYesNo} alt="" />
 
 
 ## Short text
 Use to enter short strings of text. Enter will accept the auto fill if available
 
-```
-? Prompt (Auto fill)
-```
+<img src={PromptShortText} alt="" />
 
 ## Long text
 Use to enter large bodies of text. E key will open the user’s preferred editor, and Enter will skip.
 
-```
-? Prompt [(e) to launch vim, enter to skip]
-```
+<img src={PromptLongText} alt="" />
 
 ## Radio select
 Use to select one option
 
-```
-? Prompt [Use arrows to move, type to filter]
-> Choice focused
-  Choice
-  Choice
-```
+<img src={PromptRadio} alt="" />
 
 ## Multi select
 Use to select multiple options
 
-```
-? Prompt [Use arrows to move, space to select, type to filter]
-> [x]  Choice selected and focused
-  [x]  Choice selected
-  [ ]  Projects
-  [ ]  Milestone
-```
+<img src={PromptMulti} alt="" />
