@@ -19,14 +19,9 @@ There are also bright versions of these colors, which we can also use, but less 
 |Draft Secondary text|
 
 
-Things to note
+**Things to note**
 - Background color is available but we haven’t taken advantage of it yet
 - Some terminals support 256 color not reliably
 - People can customize their colors but that’s opt-in (the user knows they’re making their greens not green for example)
-- Only use color to enhance meaning, not to communicate meaning
-  - ref: https://primer.style/design/global/accessibility#visual-accessibility
+- Only use color to [enhance meaning](https://primer.style/design/global/accessibility#visual-accessibility), not to communicate meaning
   - ex: issue list defaults to open so it’s ok there, on detail page we write open
-
-
- DO. 						 DO NOT.
-appropriate color usage		example with color explaining too much
