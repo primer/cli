@@ -2,11 +2,11 @@
 title: Prompts
 ---
 
-import PromptYesNo from '../../src/images/Prompt-YesNo.png'
-import PromptShortText from '../../src/images/Prompt-ShortText.png'
-import PromptLongText from '../../src/images/Prompt-LongText.png'
-import PromptRadio from '../../src/images/Prompt-RadioSelect.png'
-import PromptMulti from '../../src/images/Prompt-MultiSelect.png'
+import PromptYesNo from '../../images/Prompt-YesNo.png'
+import PromptShortText from '../../images/Prompt-ShortText.png'
+import PromptLongText from '../../images/Prompt-LongText.png'
+import PromptRadio from '../../images/Prompt-RadioSelect.png'
+import PromptMulti from '../../images/Prompt-MultiSelect.png'
 
 Generally speaking, prompts are the CLI’s version of forms.
 

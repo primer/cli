@@ -2,12 +2,12 @@
 title: Language
 ---
 import {DoDontContainer, Do, Dont, Caption} from '@primer/gatsby-theme-doctocat'
-import Language01 from '../../src/images/Language-01.png'
-import Language02 from '../../src/images/Language-02.png'
-import Language03 from '../../src/images/Language-03.png'
-import Language04 from '../../src/images/Language-04.png'
-import Language05 from '../../src/images/Language-05.png'
-import Language06 from '../../src/images/Language-06.png'
+import Language01 from '../../images/Language-01.png'
+import Language02 from '../../images/Language-02.png'
+import Language03 from '../../images/Language-03.png'
+import Language04 from '../../images/Language-04.png'
+import Language05 from '../../images/Language-05.png'
+import Language06 from '../../images/Language-06.png'
 
 Language is the most important tool at our disposal for creating a clear, understandable product. Having clear language helps us create memorable commands that are clear in what they will do.
 

@@ -3,13 +3,13 @@ title: Principles
 ---
 
 import {DoDontContainer, Do, Dont, Caption} from '@primer/gatsby-theme-doctocat'
-import Principle201 from '../../src/images/Principle2-01.png'
-import Principle202 from '../../src/images/Principle2-02.png'
-import Principle204 from '../../src/images/Principle2-04.png'
-import Principle205 from '../../src/images/Principle2-05.png'
-import Principle401 from '../../src/images/Principle4-01.png'
-import Principle402 from '../../src/images/Principle4-02.png'
-import Principle403 from '../../src/images/Principle4-03.png'
+import Principle201 from '../../images/Principle2-01.png'
+import Principle202 from '../../images/Principle2-02.png'
+import Principle204 from '../../images/Principle2-04.png'
+import Principle205 from '../../images/Principle2-05.png'
+import Principle401 from '../../images/Principle4-01.png'
+import Principle402 from '../../images/Principle4-02.png'
+import Principle403 from '../../images/Principle4-03.png'
 
 ### Reasonable defaults, easy overrides
 Optimize for what most people will need to do most of the time, but make it easy for people to adjust it to their needs.

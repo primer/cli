@@ -2,10 +2,10 @@
 title: Iconography
 ---
 import {DoDontContainer, Do, Dont, Caption} from '@primer/gatsby-theme-doctocat'
-import Iconography1 from '../../src/images/Iconography-1.png'
-import Iconography2 from '../../src/images/Iconography-2.png'
-import Iconography3 from '../../src/images/Iconography-3.png'
-import Iconography4 from '../../src/images/Iconography-4.png'
+import Iconography1 from '../../images/Iconography-1.png'
+import Iconography2 from '../../images/Iconography-2.png'
+import Iconography3 from '../../images/Iconography-3.png'
+import Iconography4 from '../../images/Iconography-4.png'
 
 While CLI does not have images, we do have unicode at our disposal to enhance meaning. When applying iconography consider:
 
