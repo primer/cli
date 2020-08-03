@@ -1,7 +1,7 @@
 ---
 title: Help
 ---
-import Help from '../../src/images/Help.png'
+import Help from '../../images/Help.png'
 
 
 There are generally three levels of help: the top level (`gh`), the second level (`gh issue`), and the third level (`gh issue create`). Each help page has sections.

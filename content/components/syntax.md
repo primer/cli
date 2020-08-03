@@ -3,9 +3,9 @@ title: Syntax
 ---
 
 import {DoDontContainer, Do, Dont, Caption} from '@primer/gatsby-theme-doctocat'
-import SyntaxBranch from '../../src/images/Syntax-Branch.png'
-import SyntaxLabel from '../../src/images/Syntax-Label.png'
-import SyntaxRepo from '../../src/images/Syntax-Repo.png'
+import SyntaxBranch from '../../images/Syntax-Branch.png'
+import SyntaxLabel from '../../images/Syntax-Label.png'
+import SyntaxRepo from '../../images/Syntax-Repo.png'
 
 ## Branches
 Display branch names in brackets and/or cyan

@@ -2,7 +2,7 @@
 title: Typography
 ---
 
-import Typography from '../../src/images/Typography.png'
+import Typography from '../../images/Typography.png'
 
 Everything is a command line interface is text, so type hierarchy is important. All type is the same size and font, but you can still create type hierarchy using font weight and space.
 

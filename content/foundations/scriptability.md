@@ -2,8 +2,8 @@
 title: Scriptability
 ---
 
-import GhPrList from '../../src/images/gh-pr-list.png'
-import GhPrListMachine from '../../src/images/gh-pr-list-machine.png'
+import GhPrList from '../../images/gh-pr-list.png'
+import GhPrListMachine from '../../images/gh-pr-list-machine.png'
 
 Make choices that ensure that creating automations or scripts with GitHub commands is obvious and frictionless. Practically, this means:
 
