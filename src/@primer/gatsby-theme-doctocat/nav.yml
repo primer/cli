@@ -1,5 +1,10 @@
-- title: Principles
-  url: /principles
+- title: Getting started
+  url: /
+  children:
+    - title: Principles
+      url: /getting-started/principles
+    - title: Process
+      url: /getting-started/process
 - title: Foundations
   url: /foundations
   children:
@@ -41,8 +46,6 @@
 - title: Prototyping
   url: /prototyping
   children:
-    - title: Process
-      url: /prototyping/process
     - title: Google Docs
       url: /prototyping/google-docs
     - title: Figma
