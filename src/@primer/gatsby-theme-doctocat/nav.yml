@@ -5,6 +5,8 @@
       url: /getting-started/principles
     - title: Process
       url: /getting-started/process
+    - title: Prototyping
+      url: /getting-started/prototyping
 - title: Foundations
   url: /foundations
   children:
@@ -43,10 +45,3 @@
       url: /components/empty
     - title: Help pages
       url: /components/help
-- title: Prototyping
-  url: /prototyping
-  children:
-    - title: Google Docs
-      url: /prototyping/google-docs
-    - title: Figma
-      url: /prototyping/figma
