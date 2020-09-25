@@ -7,5 +7,14 @@
       "use": "@now/static-build",
       "config": {"distDir": "public"}
     }
+  ],
+  "routes": [
+    {"src": "/cli", "dest": "/"},
+    {"src": "/cli(/.*)?", "dest": "$1"},
+    {
+      "src": "/",
+      "status": 301,
+      "headers": {"Location": "/cli"}
+    }
   ]
 }
