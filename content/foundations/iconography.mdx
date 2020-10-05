@@ -1,6 +1,7 @@
 ---
 title: Iconography
 ---
+
 import {DoDontContainer, Do, Dont, Caption} from '@primer/gatsby-theme-doctocat'
 import Iconography1 from '../../images/Iconography-1.png'
 import Iconography2 from '../../images/Iconography-2.png'
@@ -15,6 +16,7 @@ Since graphical image support in terminal emulators is unreliable, we rely on Un
 _Note: In Windows, Powershell’s default font (Lucida Console) has poor Unicode support. Microsoft suggests changing it for more Unicode support._
 
 **Symbols currently used:**
+
 ```
 ✓ 	Success
 - 	Neutral
@@ -24,19 +26,23 @@ _Note: In Windows, Powershell’s default font (Lucida Console) has poor Unicode
 ```
 
 <DoDontContainer>
-  <Do src={Iconography1}>
-    Use checks for success messages
+  <Do>
+    <img alt="" src={Iconography1} width="100%" />
+    <Caption>Use checks for success messages</Caption>
   </Do>
-  <Dont src={Iconography2}>
-    Don't use checks for failure messages
+  <Dont>
+    <img alt="" src={Iconography2} width="100%" />
+    <Caption>Don't use checks for failure messages</Caption>
   </Dont>
 </DoDontContainer>
 
 <DoDontContainer>
-  <Do src={Iconography3}>
-    Use checks for success of closing or deleting
+  <Do>
+    <img alt="" src={Iconography3} width="100%" />
+    <Caption>Use checks for success of closing or deleting</Caption>
   </Do>
-  <Dont src={Iconography4}>
-    Don't use alerts when closing or deleting
+  <Dont>
+    <img alt="" src={Iconography4} width="100%" />
+    <Caption>Don't use alerts when closing or deleting</Caption>
   </Dont>
 </DoDontContainer>
