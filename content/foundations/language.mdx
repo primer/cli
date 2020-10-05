@@ -1,6 +1,7 @@
 ---
 title: Language
 ---
+
 import {DoDontContainer, Do, Dont, Caption} from '@primer/gatsby-theme-doctocat'
 import Language01 from '../../images/Language-01.png'
 import Language02 from '../../images/Language-02.png'
@@ -13,15 +14,14 @@ Language is the most important tool at our disposal for creating a clear, unders
 
 We generally follow this structure:
 
-|gh|`<command>`|`<subcommand>`|[value]|[flags]|[value]|
-|---|---|---|---|---|---|
-|gh |issue|view|234|--web|-|
-|gh|pr|create|-|--title|“Title”|
-|gh|repo|fork|cli/cli|--clone|false|
-|gh|pr|status|-|-|-|
-|gh|issue|list|-|--state|closed|
-|gh|pr|review|234|--approve|-|
-
+| gh  | `<command>` | `<subcommand>` | [value] | [flags]   | [value] |
+| --- | ----------- | -------------- | ------- | --------- | ------- |
+| gh  | issue       | view           | 234     | --web     | -       |
+| gh  | pr          | create         | -       | --title   | “Title” |
+| gh  | repo        | fork           | cli/cli | --clone   | false   |
+| gh  | pr          | status         | -       | -         | -       |
+| gh  | issue       | list           | -       | --state   | closed  |
+| gh  | pr          | review         | 234     | --approve | -       |
 
 **Command:** The object you want to interact with
 
@@ -30,6 +30,7 @@ We generally follow this structure:
 **Flag:** A way to modify the command, also may be called “options”. You can use multiple flags. Flags can take values, but don’t always. Flags always have a long version with two dashes `(--state)` but often also have a shortcut with one dash and one letter `(-s)`. It’s possible to chain shorthand flags: `-sfv` is the same as `-s -f -v`
 
 **Values:** Are passed to the commands or flags
+
 - The most common command values are:
   - Issue or PR number
   - The “owner/repo” pair
@@ -42,38 +43,48 @@ We generally follow this structure:
   - `--title` takes a string
   - `--limit` takes an integer
 
-
 _Tip: To get a better sense of what feels right, try writing out the commands in the CLI a few different ways._
 
 <DoDontContainer>
-  <Do src={Language06}>
-    Use a flag for modifiers of actions
+  <Do>
+    <img alt="" src={Language06} width="100%" />
+    <Caption>Use a flag for modifiers of actions</Caption>
   </Do>
-  <Dont src={Language03}>
-    Avoid making modifiers their own commands
+  <Dont>
+    <img alt="" src={Language03} width="100%" />
+    <Caption>Avoid making modifiers their own commands</Caption>
   </Dont>
 </DoDontContainer>
 
-
 **When designing your command’s language system:**
+
 - Use [GitHub language](/getting-started/principles#make-it-feel-like-github)
 - Use unambiguous language that can’t be confused for something else
 - Use shorter phrases if possible and appropriate
 
 <DoDontContainer>
-  <Do src={Language05}>
-    Use language that can't be misconstrued
+  <Do>
+    <img alt="" src={Language05} width="100%" />
+    <Caption>Use language that can't be misconstrued</Caption>
   </Do>
-  <Dont src={Language02}>
-    Avoid language that can be interpreted in multiple ways ("open in browser" or "open a pull request" here)
+  <Dont>
+    <img alt="" src={Language02} width="100%" />
+    <Caption>
+      Avoid language that can be interpreted in multiple ways ("open in browser"
+      or "open a pull request" here)
+    </Caption>
   </Dont>
 </DoDontContainer>
 
 <DoDontContainer>
-  <Do src={Language04}>
-    Use understood shorthands to save characters to type
+  <Do>
+    <img alt="" src={Language04} width="100%" />
+    <Caption>Use understood shorthands to save characters to type</Caption>
   </Do>
-  <Dont src={Language01}>
-    Avoid long words in commands if there's a reasonable alternative
+  <Dont>
+    <img alt="" src={Language01} width="100%" />
+    <Caption>
+      Avoid long words in commands if there's a reasonable alternative
+    </Caption>
   </Dont>
 </DoDontContainer>
