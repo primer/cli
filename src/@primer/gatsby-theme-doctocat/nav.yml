@@ -1,6 +1,8 @@
-- title: Getting started
+- title: Introduction
   url: /
   children:
+    - title: Getting started
+      url: /
     - title: Principles
       url: /getting-started/principles
     - title: Process
